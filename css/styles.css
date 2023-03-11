@@ -4,4 +4,67 @@ body {
     color: #434455;
 }
 
+
 /*Add header style*/
+header {
+    background-color: white;
+}
+
+header a,
+header ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/*Add logo style*/
+.header-logo,
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.header-span {
+    color: #2E2F42;
+}
+
+.footer-span {
+    color: #F4F4FD;
+}
+
+/*Add nav style*/
+.nav-item>a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+/*Add cpntacts style*/
+.header-contacts {
+    font-style: normal
+}
+
+.contact-item>a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*Add hover and focus for header*/
+.nav-item>a:hover,
+.contact-item>a:hover,
+.nav-item>a:focus,
+.contact-item>a:focus {
+    color: #404bbf;
+}
