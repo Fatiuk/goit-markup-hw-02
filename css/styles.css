@@ -1,23 +1,26 @@
-/*Add body style*/
+/*!Body style!*/
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
 }
 
-/*Delete text decoration in header and footer*/
+/*Delete text decoration in the main*/
 header a,
-header ul,
-footer a {
+header li,
+footer a,
+.section-one__item,
+.section-two__item,
+.section-three__item {
     text-decoration: none;
     list-style-type: none;
 }
 
-/*!Add header style!*/
+/*!Header style!*/
 header {
     background-color: #FFFFFF;
 }
 
-/*Add logo style*/
+/*Logo style in header*/
 .header-logo,
 .footer-logo {
     font-family: 'Raleway', sans-serif;
@@ -29,15 +32,17 @@ header {
     color: #4D5AE5;
 }
 
+/*Color header logo for tag span*/
 .header-span {
     color: #2E2F42;
 }
 
+/*Color footer logo for tag span*/
 .footer-span {
     color: #F4F4FD;
 }
 
-/*Add nav style*/
+/*Navigation style*/
 .nav-item>a {
     font-weight: 500;
     font-size: 16px;
@@ -46,11 +51,12 @@ header {
     color: #2E2F42;
 }
 
-/*Add cntacts style*/
+/*Contacts style*/
 .header-contacts {
     font-style: normal
 }
 
+/*Contacts style*/
 .contact-item>a {
     font-weight: 400;
     font-size: 16px;
@@ -59,7 +65,7 @@ header {
     color: #434455;
 }
 
-/*Add hover and focus for header*/
+/*Hover and focus for header*/
 .nav-item>a:hover,
 .contact-item>a:hover,
 .nav-item>a:focus,
@@ -67,11 +73,12 @@ header {
     color: #404bbf;
 }
 
-/*!Add section hero!*/
+/*!Section hero style!*/
 .hero {
     background-color: #2E2F42;
 }
 
+/*Section hero title*/
 .hero-title {
     font-weight: 700;
     font-size: 56px;
@@ -81,12 +88,12 @@ header {
     color: #FFFFFF;
 }
 
-/*Add style for button in hero section*/
+/*Style for button in hero section*/
 .hero-button {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.07;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: center;
     cursor: pointer;
@@ -94,18 +101,82 @@ header {
     color: #FFFFFF;
 }
 
-/*Add hover and focus for button in hero section*/
+/*Hover and focus for button in hero section*/
 .hero-button:hover,
 .hero-button:hover {
     background-color: #404BBF;
 }
 
+/*!Section 1 style!*/
+/*Section 1 title*/
+.section-one>.item-section-one__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
 
-/*!Add footer style!*/
+/*Section 1 text*/
+.section-one>.item-section-one__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*!Add section 2 style!*/
+/*Section 2 title*/
+.section-two>.section-two__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+/*!Add section 3 style!*/
+/*Section 3 title*/
+.section-three>.section-three__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+/*Section 3 title list*/
+.section-three__item>.item-section-three__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+/*Section 3 title text*/
+.section-three__item>.item-section-three__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+/*!Footer style!*/
 footer {
     background-color: #2E2F42;
 }
 
+/*Footer slogan*/
 .footer-slogan {
     font-weight: 400;
     font-size: 16px;
