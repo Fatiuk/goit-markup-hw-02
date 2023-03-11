@@ -4,23 +4,23 @@ body {
     color: #434455;
 }
 
-
-/*Add header style*/
-header {
-    background-color: white;
-}
-
+/*Delete text decoration in header and footer*/
 header a,
-header ul {
+header ul,
+footer a {
     text-decoration: none;
     list-style-type: none;
+}
+
+/*!Add header style!*/
+header {
+    background-color: #FFFFFF;
 }
 
 /*Add logo style*/
 .header-logo,
 .footer-logo {
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -39,7 +39,6 @@ header ul {
 
 /*Add nav style*/
 .nav-item>a {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -47,13 +46,12 @@ header ul {
     color: #2E2F42;
 }
 
-/*Add cpntacts style*/
+/*Add cntacts style*/
 .header-contacts {
     font-style: normal
 }
 
 .contact-item>a {
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -67,4 +65,51 @@ header ul {
 .nav-item>a:focus,
 .contact-item>a:focus {
     color: #404bbf;
+}
+
+/*!Add section hero!*/
+.hero {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*Add style for button in hero section*/
+.hero-button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.07;
+    letter-spacing: 0.04em;
+    text-align: center;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+
+/*Add hover and focus for button in hero section*/
+.hero-button:hover,
+.hero-button:hover {
+    background-color: #404BBF;
+}
+
+
+/*!Add footer style!*/
+footer {
+    background-color: #2E2F42;
+}
+
+.footer-slogan {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
 }
