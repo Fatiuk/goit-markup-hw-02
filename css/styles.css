@@ -22,12 +22,12 @@ body {
 
 /*Style for header*/
 .header {
-    background-color: #FFFFFF;
+    background-color: var(--white-background-color);
 }
 
 /*Style for team section*/
 .team {
-    background-color: #E7E9FC;
+    background-color: var(--accent-color);
 }
 
 /*Delete text decoration in the main*/
@@ -100,8 +100,28 @@ body {
 
 /*Hover and focus for button in hero section*/
 .hero>.button:hover,
-.hero>.button:hover {
+.hero>.button:focus {
     background-color: var(--pressed-state-color);
+}
+
+/*Style for button in filter section*/
+.filter .button {
+    text-align: center;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: var(--light-color);
+    color: var(--primary-brand-color);
+}
+
+/*Hover and focus for button in filter section*/
+.filter .button:hover,
+.filter .button:focus {
+    background-color: var(--pressed-state-color);
+    color: var(--white-background-color);
 }
 
 /*Header 1*/
@@ -111,7 +131,7 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--white-background-color);
 }
 
 /*Header 2*/
@@ -129,7 +149,8 @@ body {
 
 /*Header 3*/
 .features .title,
-.team .title {
+.team .title,
+.category .title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -147,7 +168,7 @@ body {
     color: var(--text-color);
 }
 
-/*!Footer style!*/
+/*Footer style*/
 .footer {
     background-color: var(--dark-color);
 }
