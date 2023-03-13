@@ -17,17 +17,17 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
-    background-color: #E5E5E5;
-}
-
-/*Style for header*/
-.header {
     background-color: var(--white-background-color);
 }
 
 /*Style for team section*/
 .team {
-    background-color: var(--accent-color);
+    background-color: var(--light-color);
+}
+
+/*Style for cards team section*/
+.team>.item {
+    background-color: var(--white-background-color);
 }
 
 /*Delete text decoration in the main*/
@@ -95,7 +95,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: var(--primary-brand-color);
-    color: #FFFFFF;
+    color: var(--white-background-color);
 }
 
 /*Hover and focus for button in hero section*/
